@@ -184,7 +184,7 @@ Sub StockMarket()
                     MaxPctDec = ws.Cells(i, 11).Value
                     'write iterated ticker to Cell P3
                     ws.Range("P3").Value = ws.Cells(i, 9).Value
-                    'write iterated percent change value t532qo Cell Q3, set the value as "Percent"
+                    'write iterated percent change value to Cell Q3, set the value as "Percent"
                     ws.Range("Q3").Value = Format(ws.Cells(i, 11).Value, "Percent")
                 
                 End If
